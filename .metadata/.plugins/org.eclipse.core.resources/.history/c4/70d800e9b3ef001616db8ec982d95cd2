@@ -1,0 +1,9 @@
+package granja;
+
+public class Granja {
+
+	public Granja() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

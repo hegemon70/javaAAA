@@ -1,0 +1,30 @@
+package granja;
+
+enum Color {}
+public class Gallina implements Oviparo {
+
+	public Gallina() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Huevo[] recogerHuevos(Integer numeroHuevos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Huevo[] recogerHuevos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void ponerHuevos() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package granja;
+
+public class Granja {
+	String color;
+	public Granja() {
+		// TODO Auto-generated constructor stub
+	}
+	public Granja(String color) {
+		this color=color;
+	}
+	
+}

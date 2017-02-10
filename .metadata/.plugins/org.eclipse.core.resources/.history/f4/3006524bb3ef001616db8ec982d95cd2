@@ -1,0 +1,9 @@
+package granja;
+
+public class Conejo {
+
+	public Conejo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

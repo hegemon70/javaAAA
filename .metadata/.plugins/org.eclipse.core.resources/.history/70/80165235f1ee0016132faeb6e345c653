@@ -1,0 +1,21 @@
+package arrays;
+
+public class ArraysFmc {
+
+	public ArraysFmc() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int [] vector =new int[10];
+			vector[0]= 20;
+			
+			System.out.println("posicion 1 "+vector[0]);
+			
+
+
+
+	}
+
+}

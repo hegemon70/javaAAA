@@ -1,0 +1,29 @@
+package animales;
+
+import granja.Huevo;
+
+public class Palomo implements Oviparo {
+
+	public Palomo() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Huevo[] recogerHuevos(Integer numeroHuevos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Huevo[] recogerHuevos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void ponerHuevos() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

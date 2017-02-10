@@ -1,0 +1,54 @@
+package animales;
+
+import java.util.Random;
+
+import productos.Huevo;
+
+enum Color {BLANCO,NEGRA,ROYA,MARRON}
+public class Gallina extends Animal implements Oviparo {
+	Color ColorGallina; 
+	public Gallina() {
+		// TODO Auto-generated constructor stub
+		
+         this.ColorGallina=dameColorGallina();
+	}
+
+	@Override
+	public Huevo[] recogerHuevos(Integer numeroHuevos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Huevo[] recogerHuevos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void ponerHuevos() {
+		// TODO Auto-generated method stub
+
+	}
+public void comer(){
+		
+		System.out.println("el gallina come");
+	}
+	public void dormir(){
+		System.out.println("el gallina duerme");
+	} 
+	private Color dameColorGallina(){
+		Color colorEnum = Color.BLANCO;
+		 Random rnd = new Random();
+		 int col= rnd.nextInt()*3;
+		 switch (col){
+		 case 1: return colorEnum.MARRON;
+		 case 2: return colorEnum.NEGRA;
+		 case 3: return colorEnum.ROYA;
+		 default: return colorEnum.BLANCO;
+		 }
+		
+		
+	}
+
+}
