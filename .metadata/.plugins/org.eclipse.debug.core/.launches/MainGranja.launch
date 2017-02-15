@@ -8,4 +8,5 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="granja.MainGranja"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="diagramas-test"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="ea"/>
 </launchConfiguration>

@@ -2,11 +2,21 @@ package granja;
 
 public class Granjero {
 	private String nombre;
-	public  Granja miGranja;
+	private  Granja miGranja;
 	
 
 
+	public Granja getMiGranja() {
+		return miGranja;
+	}
+	public void setMiGranja(Granja miGranja) {
+		this.miGranja = miGranja;
+	}
 	public Granjero(String nom) {
+		// TODO Auto-generated constructor stub
+			setNombre(nom);
+	}
+	public Granjero(String nom,Granja granja) {
 		// TODO Auto-generated constructor stub
 			setNombre(nom);
 	}

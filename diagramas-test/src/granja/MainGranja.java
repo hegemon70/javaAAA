@@ -17,9 +17,9 @@ public class MainGranja {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Granja granja;
-		Granjero miGranjero = new Granjero("Dionisio");
-		granja = new Granja();
-		for (int i=0 ;i<MAXCONEJO;i++){
+		Granjero miGranjero = new Granjero("Dionisio",new Granja());
+		//granja = new Granja();
+	/*	for (int i=0 ;i<MAXCONEJO;i++){
 			Granja.Animales[i]=granja.creaAnimal(0);
 		}
 		for (int i=MAXCONEJO ;i<MAXGALLINA;i++){
@@ -35,10 +35,17 @@ public class MainGranja {
 				
 			}
 		}
+		*/
 		
-		
-		
-		
+			miGranjero.getMiGranja().nuevoDia();
+			
+			// El granjero realiza su tarea de alimentar animales
+			miGranjero.alimentarAnimales();
+			
+			// El granjero realiza su tarea de recoger huevos
+			miGranjero.recogerHuevos();
+			
+			// El granjero realiza su tarea de contar huevos
+			miGranjero.contarHuevos();
 	}
-
 }
