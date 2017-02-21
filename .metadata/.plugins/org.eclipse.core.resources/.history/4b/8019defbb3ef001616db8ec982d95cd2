@@ -1,9 +1,0 @@
-package granja;
-
-public interface Oviparo {
-
-	public Huevo[] recogerHuevos(Integer numeroHuevos);
-	public Huevo[] recogerHuevos();
-	public void ponerHuevos();
-	
-}

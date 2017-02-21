@@ -1,0 +1,27 @@
+package archivos;
+import java.io.File;
+
+public class ListarFichero {
+
+	public ListarFichero() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public void imprimirListado()
+	{
+		File f =new File(".");
+		if (f.canExecute() && f.canRead())
+		{
+			String[] ficheros=f.list();
+			for(String fichero :ficheros)
+			{
+				System.out.println(fichero);
+			}
+		}
+	}
+
+}

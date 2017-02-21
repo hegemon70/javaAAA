@@ -1,0 +1,14 @@
+package archivos;
+
+public class ListarFichero {
+
+	public ListarFichero() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

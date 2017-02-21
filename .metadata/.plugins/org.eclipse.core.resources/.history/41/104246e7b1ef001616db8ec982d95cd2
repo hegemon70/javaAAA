@@ -1,9 +1,0 @@
-package granja;
-
-public class Huevo {
-
-	public Huevo() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

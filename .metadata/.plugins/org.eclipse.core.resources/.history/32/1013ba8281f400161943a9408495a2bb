@@ -1,0 +1,20 @@
+
+package cadenas;
+import java.util.Scanner;
+public class Cadenas {
+
+	public Cadenas() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String rec;
+		System.out.println("dame un string");
+		Scanner sc = new Scanner(System.in);
+		rec=sc.next();
+		System.out.println("el estring que me has pasado es "+rec);
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package cadenas2;
+
+
+
+import java.util.Scanner;
+import java.lang.String;
+public class Cadenas2 {
+
+	public Cadenas2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
