@@ -1,0 +1,9 @@
+package Concurrency;
+
+public class Almacen {
+
+	public Almacen() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

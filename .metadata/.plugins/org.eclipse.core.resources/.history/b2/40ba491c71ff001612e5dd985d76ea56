@@ -1,0 +1,9 @@
+package Concurrency;
+
+public class Productor {
+
+	public Productor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

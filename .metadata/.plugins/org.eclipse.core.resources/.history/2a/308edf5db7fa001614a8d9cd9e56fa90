@@ -1,0 +1,32 @@
+package numberFormat;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class PatternFMC {
+
+	public PatternFMC() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		String regex=".ing";
+		Pattern pattern = Pattern.compile(regex);
+		String[] tests ={"ing","ring","trying","running","beings"};
+		for(String test : tests){
+			Matcher m =pattern.matcher(test);
+			if(m.matches())
+			{
+				System.out.println(test+" matches" + regex);
+			}
+		}
+		String s ="[A-Z]\\w*\\s+[A-Z]\\w+";
+		Pattern x= Pattern.compile(s);
+		String[] names ={"John Doe","John Doe","JohnDoe","John\tDoe","John doe","J D","J D5"};
+		for(String name: names){
+			Matcher m =x.matcher(name);
+			if(m.matches())
+			{
+				System.out.println(name+" matches" + regex);
+			}
+		}
+}

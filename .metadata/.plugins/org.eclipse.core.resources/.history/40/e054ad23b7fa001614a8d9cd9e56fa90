@@ -1,0 +1,24 @@
+package numberFormat;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class PatternFMC {
+
+	public PatternFMC() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		String regex=".ing";
+		Pattern pattern = Pattern.compile(regex);
+		String[] tests ={"ing","ring","trying","running","beings"};
+		for(String test : tests){
+			Matcher m =pattern.matcher(test);
+			if(m.matches())
+			{
+				System.out.println(test+" matches" + regex);
+			}
+		}
+	}
+
+}

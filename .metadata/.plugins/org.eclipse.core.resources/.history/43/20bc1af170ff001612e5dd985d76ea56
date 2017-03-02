@@ -1,0 +1,9 @@
+package Concurrency;
+
+public class NoUnidadesException {
+
+	public NoUnidadesException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package hilosFMC;
+
+public class MyThreadSubClass {
+
+	public MyThreadSubClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
